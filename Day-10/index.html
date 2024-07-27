@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="class">div with class root</div>
+    <div id="id">div with id one</div>
+
+    <ul id="list">
+      <li>it1</li>
+      <li>it2</li>
+      <li>it3</li>
+    </ul>
+
+    <div
+      id="div"
+      style="
+        width: 400px;
+        height: 400px;
+        background-color: gray;
+        border-radius: 2%;
+      "
+    ></div>
+
+    <img
+      id="img"
+      width="400"
+      height="400"
+      src="https://cdn.pixabay.com/photo/2022/09/15/09/04/sea-7456037_1280.jpg"
+      alt=""
+    />
+
+    <input type="text" name="" id="input" />
+    <p id="para">this is para to change with buttton</p>
+
+    <button id="newbtn">NewButton</button>
+
+  
+
+    <form id="form" onsubmit="event.preventDefault(); onFormSubmit();"">
+      <input type="text" name="text1" value="foo" />
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+
+    <output id="output"></output>
+
+    <script src="./event-handling.js" alt=""></script>
+  </body>
+</html>
